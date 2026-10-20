@@ -41,7 +41,7 @@ public class Main {
 
             
             if (delNum < 0 || delNum >= numbers.length) {
-                System.out.println("Ошибка: индекс выходит за границы массива");
+                System.out.println("Ошибка");
             } else {
                 
                 int[] newNumbers = new int[numbers.length - 1];
